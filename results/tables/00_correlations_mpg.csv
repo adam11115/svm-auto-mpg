@@ -1,0 +1,7 @@
+variable,corr_avec_mpg
+cylinders,-0.7776
+displacement,-0.8051
+horsepower,-0.7784
+weight,-0.8322
+acceleration,0.4233
+model_year,0.5805

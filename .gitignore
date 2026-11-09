@@ -1,0 +1,12 @@
+# Environnement virtuel et caches Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+# Fichiers système
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,7 @@
+modele,C,epsilon,rmse_test,mae_test,r2_test,n_vecteurs_support,objectif_primal_train,temps_fit_s
+scratch_dual_SMO,10.0000,2.5000,3.7168,2.6595,0.7835,109.0000,1809.7071,0.0629
+scratch_primal_sous_gradient,10.0000,2.5000,3.7164,2.6596,0.7836,,1809.7257,0.2657
+sklearn_SVR_kernel_linear,10.0000,2.5000,3.7168,2.6595,0.7835,109.0000,1809.7034,0.0039
+sklearn_LinearSVR,10.0000,2.5000,3.7084,2.6465,0.7845,,1812.4240,0.0019
+reference_moindres_carres_OLS,,,3.5811,2.6161,0.7991,,,
+reference_moyenne_constante,,,8.0143,6.4550,-0.0064,,,

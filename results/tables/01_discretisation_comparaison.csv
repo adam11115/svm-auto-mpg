@@ -1,0 +1,4 @@
+strategie,description,seuil_1_mpg,seuil_2_mpg,seuil_1_L100km,seuil_2_L100km,n_train_elevee,n_train_moyenne,n_train_faible,ratio_desequilibre,pct_zone_ambigue,baseline_classe_majoritaire_test,cv_accuracy,cv_balanced_accuracy,cv_f1_macro
+quantile,Terciles (effectifs égaux),18.7333,26.9333,12.5560,8.7332,105,104,105,1.0096,18.1529,0.3333,0.8343,0.8338,0.8349
+uniform,Largeurs égales,21.5333,34.0667,10.9233,6.9045,149,132,33,4.5152,13.0573,0.4231,0.8439,0.7278,0.7432
+domain,Seuils métier 20 / 30 mpg,20.0000,30.0000,11.7607,7.8405,123,116,75,1.6400,11.4650,0.3590,0.8314,0.8264,0.8272
