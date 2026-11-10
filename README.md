@@ -463,7 +463,7 @@ Pour le linéaire, le meilleur score brut était C = 100 (0,847). La règle parc
   compensée par un C grand (1000). La heatmap montre la diagonale classique « petit γ ↔ grand C » : des
   combinaisons de complexité équivalente donnent des scores proches.
 
-![frontières 2D](results/figures/02_frontieres_2D.png)
+
 
 ### 7.4 Comparaison avec scikit-learn
 
@@ -540,19 +540,8 @@ revanche environ 30 fois plus lent à C = 100 : c'est l'intérêt concret de la 
 **Coefficients appris** (SVR maison, en mpg pour +1 écart-type d'une variable continue, ou pour la présence
 d'une modalité par rapport à la référence « 4 cylindres, usa ») :
 
-| variable | coefficient | lecture |
-|---|---|---|
-| weight | −4,94 | +1 écart-type (≈ 850 livres) ⇒ −4,9 mpg : **le facteur dominant** |
-| model_year | +2,41 | +1 écart-type (≈ 3,7 ans) ⇒ +2,4 mpg : progrès technique des années 70 |
-| horsepower | −1,54 | plus puissant ⇒ plus gourmand |
-| displacement | +1,66 | positif « toutes choses égales par ailleurs » : la cylindrée est très corrélée au poids (r = 0,93) et à la puissance, et son effet propre est difficile à isoler (colinéarité) |
-| acceleration | −0,42 | faible |
-| cylinders_3 | −7,18 | les 4 Mazda à moteur rotatif, très gourmandes à poids égal |
-| cylinders_6 / _8 | −3,51 / −1,59 | moins sobres qu'un 4 cylindres de même poids |
-| cylinders_5 | 0,00 | 3 véhicules seulement ; deux sont hors du tube de part et d'autre (résidus −5,6 et +9,3 mpg) : leurs poids bornés +C et −C s'annulent exactement, d'où un coefficient nul (influence de chaque point limitée à C) |
-| origin_japan / _europe | +1,89 / +0,70 | plus sobres qu'une voiture américaine comparable |
 
-![coefficients](results/figures/03_coefficients.png)
+
 
 ### 8.3 Influence de ε sur le nombre de vecteurs de support
 
